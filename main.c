@@ -21,6 +21,6 @@ void main(void) {
     LATHbits.LATH3 = 0;
     
     while (1) {
-       
+        Sleep();
     }
 }
