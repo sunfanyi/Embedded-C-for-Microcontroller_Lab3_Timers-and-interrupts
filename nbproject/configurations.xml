@@ -7,6 +7,7 @@
       <itemPath>D:/Desktop/ME3/Embedded C for Microcontroller/Tutorials/Lab3_Timers_and_interrupts/lab-3-sunfanyi.X/comparator.h</itemPath>
       <itemPath>D:/Desktop/ME3/Embedded C for Microcontroller/Tutorials/Lab3_Timers_and_interrupts/lab-3-sunfanyi.X/interrupts.h</itemPath>
       <itemPath>D:/Desktop/ME3/Embedded C for Microcontroller/Tutorials/Lab3_Timers_and_interrupts/lab-3-sunfanyi.X/timers.h</itemPath>
+      <itemPath>D:/Desktop/ME3/Embedded C for Microcontroller/Tutorials/Lab3_Timers_and_interrupts/lab-3-sunfanyi.X/LEDarray.h</itemPath>
     </logicalFolder>
     <logicalFolder name="LinkerScript"
                    displayName="Linker Files"
@@ -19,6 +20,7 @@
       <itemPath>D:/Desktop/ME3/Embedded C for Microcontroller/Tutorials/Lab3_Timers_and_interrupts/lab-3-sunfanyi.X/interrupts.c</itemPath>
       <itemPath>D:/Desktop/ME3/Embedded C for Microcontroller/Tutorials/Lab3_Timers_and_interrupts/lab-3-sunfanyi.X/main.c</itemPath>
       <itemPath>D:/Desktop/ME3/Embedded C for Microcontroller/Tutorials/Lab3_Timers_and_interrupts/lab-3-sunfanyi.X/timers.c</itemPath>
+      <itemPath>D:/Desktop/ME3/Embedded C for Microcontroller/Tutorials/Lab3_Timers_and_interrupts/lab-3-sunfanyi.X/LEDarray.c</itemPath>
     </logicalFolder>
     <logicalFolder name="ExternalFiles"
                    displayName="Important Files"
