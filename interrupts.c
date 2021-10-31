@@ -24,6 +24,8 @@ void __interrupt(high_priority) HighISR()
 	//add your ISR code here i.e. check the flag, do something (i.e. toggle an LED), clear the flag...
     if (TMR0IF) {
         LATHbits.LATH3 = !LATHbits.LATH3;  // toggling LED
+        TMR0H=6;  // rewritting initial values
+        TMR0L=6;
         TMR0IF = 0;  // clear the flag
     }
 }

@@ -13,8 +13,10 @@ void Timer0_init(void)
     T0CON0bits.T016BIT=1;	//16bit mode	
 	
     // it's a good idea to initialise the timer registers so we know we are at 0
-    TMR0H=0;            //write High reg first, update happens when low reg is written to
-    TMR0L=0;
+    // 256 * (250*250 - 1) * 4 / 64000000 = 0.999984s
+    // accuracy over one year: (1 - 0.999984) * 365 * 24 * 3600 = 504.576 sec
+    TMR0H=6;            //write High reg first, update happens when low reg is written to
+    TMR0L=6;
     T0CON0bits.T0EN=1;	//start the timer
 }
 
