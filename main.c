@@ -28,10 +28,5 @@ void main(void) {
 //        Sleep();
         unsigned int time = get16bitTMR0val();
         LEDarray_disp_bin(time);
-        
-        if (T0CON0bits.T0OUT) {  // when overflow
-            // toggle the LED, it should change every 1 second
-            LATHbits.LATH3 = !LATHbits.LATH3;
-        }
     }
 }
