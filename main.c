@@ -28,15 +28,10 @@ void main(void) {
 //        Sleep();
         unsigned int time = get16bitTMR0val();
         LEDarray_disp_bin(time);
-//        if (T0CON0bits.T0OUT) {  // when overflow
-//            // restart the timer
-////            T0CON0bits.T0EN=0;  
-////            T0CON0bits.T0EN=1;
-//            // toggle the LED to see the timer output
-//            LATHbits.LATH3 = 1;
-//            __delay_ms(50);
-//            LATHbits.LATH3 = 0;
-//            __delay_ms(50);
-//        }
+        
+        if (T0CON0bits.T0OUT) {  // when overflow
+            // toggle the LED, it should change every 1 second
+            LATHbits.LATH3 = !LATHbits.LATH3;
+        }
     }
 }
